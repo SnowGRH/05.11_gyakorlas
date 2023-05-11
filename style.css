@@ -1,0 +1,7 @@
+article{
+    display: flex;
+    flex-wrap: wrap;
+}
+img{
+    width: 250px;
+}
