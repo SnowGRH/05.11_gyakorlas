@@ -19,7 +19,7 @@ class Kartya {
     return this.adat;
   }
   trigger() {
-    const EV = new CustomEvent("trigger", { detail: this.#adat });
+    const EV = new CustomEvent("trigger", { detail: this });
     window.dispatchEvent(EV);
   }
   setKep(ertek) {
